@@ -1,7 +1,6 @@
 import csv                                                              ## CSV 파일 처리를 위한 모듈
 import matplotlib.pyplot as plt                                         ## 데이터 시각화를 위한 모들
-import seaborn as sns
-from matplotlib.ticker import MaxNLocator
+import seaborn as sns       # 고급화된 그래프
 
 ## 월별 기온 데이터 파일
 temps_file_path = "ta_20241130204917.csv"        
