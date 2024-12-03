@@ -5,7 +5,7 @@ from matplotlib.ticker import MaxNLocator
 
 # 월별 기온 데이터 파일
 temps_file_path = "ta_20241130204917.csv"        
-subway_file_path = "서울교통공사_월별 승하차인원_20231231.csv"
+subway_file_path = "2023_월별 승하차인원.csv"
 
 years = list(range(1, 13))              ## 1부터 12까지의 숫자(1월~12월)
 avg_temps = []                          ## 평균 기온(왼쪽 y축 꺾은선 그래프)
