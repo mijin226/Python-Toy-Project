@@ -169,3 +169,5 @@ plt.title("Seasonal Subway Traffic")
 plt.xlabel("season", fontsize = 10)
 plt.ylabel("traffic", fontsize = 10)
 
+plt.show()
+
